@@ -70,7 +70,7 @@ body {
 
 .main {
   font-family: 'Lato', sans-serif;
-  padding-bottom: 300px;
+  padding-bottom: 200px;
   &__title {
     color: #000;
     margin-top: 65px;
@@ -134,3 +134,85 @@ body {
     }
   }
 }
+
+.footer {
+  background-color: rgb(35, 30, 41);
+  height: 350px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+  &__logo {
+    img {
+      width: 150px;
+    }
+    p {
+      margin-top: -15px;
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+}
+
+.footer__nav__wrapper {
+  display: flex;
+  .footer__nav {
+    margin-right: 150px;
+    &__list {
+      flex-direction: column;
+    }
+  }
+  
+}
+
+.nav__list-item {
+  padding-bottom: 20px;
+}
+
+.nav__list-link {
+  color: #fff;
+}
+
+.footer__nav {
+  &__list {
+    display: flex;
+  }
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &-contacts {
+    padding-left: 30px;
+  }
+  &-community {
+    padding-left: 30px;
+    margin-top: 45px;
+  }
+  &-title {
+    margin-bottom: 5px;
+  }
+  &-serves {
+    display: flex;
+    margin-top: 50px;
+    p {
+      font-size: 14px;
+      padding-left: 15px;
+    }
+  }
+  p {
+    color: #fff;
+  }
+}
+
+
+.footer__links-link {
+  margin-right: 6px;
+  img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
